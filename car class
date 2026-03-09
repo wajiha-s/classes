@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+class car
+{
+public:
+    int speed;
+    int model;
+    void show()
+    {
+        cout<<"speed is:"<<speed<<"model is:"<<model<<endl;
+    }
+    
+};
+
+int main()
+{
+car cr1;
+car cr2;
+
+cr1.speed=34;
+cr1.model=25;
+
+cr2.speed=56;
+cr2.model=24;
+
+cr1.show();
+cr2.show();
+return 0;
+}
+
+
