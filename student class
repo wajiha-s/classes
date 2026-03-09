@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+class student
+{
+public:
+	int id, marks;
+
+	void display()
+	{
+		cout << "marks are=" << marks << "id is=" << id << endl;
+	}
+		
+
+};
+int main()
+{
+	student st1;
+	student st2;
+
+	st1.id = 24;
+	st1.marks = 45;
+
+	st2.id = 34;
+	st2.marks = 56;
+
+	st1.display();
+	st2.display();
+
+
+}
+	
