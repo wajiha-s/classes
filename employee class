@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class employee
+{
+private:
+    int id, salary;
+public:
+    void setdata(int i, int s)
+    {
+        id = i;
+        salary = s;
+    }
+    void show()
+    {
+        cout << "id=" << id << endl << "salary" << salary << endl;
+    }
+};
+int main()
+{
+    employee e1;
+    employee e2;
+    e1.setdata(53, 50000);
+    e2.setdata(35, 60000);
+
+    e1.show();
+    e2.show();
+    return 0;
+}
