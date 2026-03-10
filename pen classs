@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+class pen
+{
+private:
+	char color;
+	int price;
+public:
+	void setdata(char c, int p)
+	{
+		color = c;
+		price = p;
+	}
+	void display()
+	{
+		cout << "color=" <<""<< color << endl << "price=" << price << endl;
+	}
+
+};
+int main()
+{
+	pen p1;
+	p1.setdata('r', 20);
+	p1.display();
+}
