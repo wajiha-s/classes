@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+class tv
+{
+private:
+	int size,price;
+public:
+	void setdata(int s,int p)
+	{
+		size=s;
+		price = p;
+	}
+	void show()
+	{
+		cout << "size=" << size << " " << "inches" << endl<<"price="<<price<<endl;
+	}
+};
+int main()
+{
+	tv t1;
+	t1.setdata(72,70000);//you can add size and price of your own
+	t1.show();
+	return 0;
+}
